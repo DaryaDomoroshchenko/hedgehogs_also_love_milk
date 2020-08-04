@@ -6,7 +6,7 @@
 .about {
   display: flex;
   justify-content: center;
-  min-height: 298px;
+  min-height: 318px;
   align-items: flex-end;
   margin-top: -263px;
   position: relative;
@@ -14,6 +14,7 @@
   overflow: hidden;
   max-height: 430px;
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 767px) {
