@@ -49,20 +49,15 @@ closeMenuButton.addEventListener('click', () => {
 $(document).ready(() => {
 
   function validateForm() {
-    if (($('#buyCheckbox').is(':checked') & ($('#careCheckbox').is(':checked'))) & ($('#detailsCheckbox').is(':checked'))){
+    if (($('#buyCheckbox').is(':checked')) & ($('#careCheckbox').is(':checked')) & ($('#detailsCheckbox').is(':checked'))){
       $('#inputName').attr('disabled', 'disabled');
-      $('.feedback-popup__button').removeAttr('disabled');
-      $('#detailsCheckbox').removeAttr('disabled');
     }
-    else if (($('#buyCheckbox').is(':checked') & ($('#careCheckbox').is(':checked')))){
+    else if (($('#buyCheckbox').is(':checked')) & (($('#careCheckbox').is(':checked')))){
+      $('.feedback-popup__button').attr('disabled', 'disabled');
       $('#detailsCheckbox').attr('disabled', 'disabled');
-      $('.feedback-popup__button').removeAttr('disabled');
-      $('#inputName').removeAttr('disabled');
     }
     else if ($('#buyCheckbox').is(':checked')){
       $('.feedback-popup__button').attr('disabled', 'disabled');
-      $('#detailsCheckbox').removeAttr('disabled');
-      $('#inputName').removeAttr('disabled');
     }
     else {
       $('.feedback-popup__button').removeAttr('disabled');
@@ -72,5 +67,4 @@ $(document).ready(() => {
   }
 
   $('input:checkbox').on('change', validateForm);
-
 });

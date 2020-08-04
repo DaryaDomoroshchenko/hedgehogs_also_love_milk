@@ -23,18 +23,6 @@
   position: relative;
 }
 
-/* .root::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1582px;
-  height: 1582px;
-  margin-left: 1028px;
-  margin-top: -78px;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 238, 206, 0.49) 0%, rgba(196, 196, 196, 0) 100%);
-} */
-
 * {
   box-sizing: border-box;
 }

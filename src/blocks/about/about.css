@@ -1,28 +1,20 @@
+@import url(./__items-container/about__items-container.css);
 @import url(./__item/about__item.css);
 @import url(./__circle/about__circle.css);
 @import url(./__title/about__title.css);
 @import url(./__caption/about__caption.css);
 
 .about {
-  display: flex;
-  justify-content: center;
-  min-height: 318px;
-  align-items: flex-end;
   margin-top: -263px;
   position: relative;
   z-index: 10;
   overflow: hidden;
-  max-height: 430px;
-  flex-wrap: wrap;
   padding-top: 20px;
 }
 
 @media screen and (max-width: 767px) {
   .about {
-    flex-direction: column;
-    align-items: flex-start;
     margin-top: -60px;
-    justify-content: flex-start;
   }
 }
 
@@ -48,14 +40,136 @@
   }
 }
 
-/* .about .hedgehogs .hedgehogs_left::after {
+/* Правый ёж */
+
+.about .hedgehogs .hedgehogs_right::before {
   content: "";
   position: absolute;
-  bottom: 33px;
-  left: 0;
+  top: 129px;
+  right: -343px;
+  width: 793.75px;
+  height: 155px;
+  background: radial-gradient(50% 50% at 50% 50%, #ABABAB 0%, rgba(237, 237, 237, 0) 100%);
+}
+
+@media screen and (max-width: 1279px) {
+  .about .hedgehogs .hedgehogs_right::before {
+    content: "";
+    position: absolute;
+    top: 152px;
+    right: -147px;
+    width: 385.83px;
+    height: 73.39px;
+    background: radial-gradient(50% 50% at 50% 50%, #ABABAB 0%, rgba(237, 237, 237, 0) 100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .hedgehogs .hedgehogs_right::before {
+    content: "";
+    position: absolute;
+    top: 112px;
+    right: -147px;
+    width: 385.83px;
+    height: 73.39px;
+    background: radial-gradient(50% 50% at 50% 50%, #ABABAB 0%, rgba(237, 237, 237, 0) 100%);
+  }
+}
+
+.about .hedgehogs .hedgehogs_right::after {
+  content: "";
+  position: absolute;
+  top: -35px;
+  right: -220px;
   width: 549.22px;
   height: 412.01px;
-  background-image: url(../../images/hedgehog_left.png);
+  background-image: url(../../images/hedgehod_right.png);
   background-repeat: no-repeat;
-  transform: rotate(340deg);
-} */
+}
+
+@media screen and (max-width: 1279px) {
+  .about .hedgehogs .hedgehogs_right::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: -340px;
+    width: 549.22px;
+    height: 412.01px;
+    background-image: url(../../images/hedgehod_right_small.png);
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .hedgehogs .hedgehogs_right::after {
+    content: "";
+    position: absolute;
+    top: -23px;
+    right: -340px;
+    width: 549.22px;
+    height: 412.01px;
+    background-image: url(../../images/hedgehod_right_small.png);
+    background-repeat: no-repeat;
+  }
+}
+
+/* Левый ёж */
+.about .hedgehogs .hedgehogs_left::before {
+  content: "";
+  position: absolute;
+  top: 129px;
+  left: -343px;
+  width: 793.75px;
+  height: 155px;
+  background: radial-gradient(50% 50% at 50% 50%, #ABABAB 0%, rgba(237, 237, 237, 0) 100%);
+}
+
+@media screen and (max-width: 1279px) {
+  .about .hedgehogs .hedgehogs_left::before {
+    content: "";
+    position: absolute;
+    top: 152px;
+    left: -147px;
+    width: 385.83px;
+    height: 73.39px;
+    background: radial-gradient(50% 50% at 50% 50%, #ABABAB 0%, rgba(237, 237, 237, 0) 100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .hedgehogs .hedgehogs_left::before {
+    display: none;
+  }
+}
+
+.about .hedgehogs .hedgehogs_left::after {
+  content: "";
+  position: absolute;
+  top: -35px;
+  left: -223px;
+  width: 549.22px;
+  height: 412.01px;
+  background-image: url(../../images/hedgehod_right.png);
+  background-repeat: no-repeat;
+  transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 1279px) {
+  .about .hedgehogs .hedgehogs_left::after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -340px;
+    width: 549.22px;
+    height: 412.01px;
+    background-image: url(../../images/hedgehod_right_small.png);
+    background-repeat: no-repeat;
+    transform: scale(-1, 1);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about .hedgehogs .hedgehogs_left::after {
+    display: none;
+  }
+}
