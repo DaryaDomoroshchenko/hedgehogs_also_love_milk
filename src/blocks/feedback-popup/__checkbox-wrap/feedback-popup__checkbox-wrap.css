@@ -1,0 +1,9 @@
+.feedback-popup__checkbox-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feedback-popup__checkbox-wrap:last-of-type {
+  margin-bottom: 0;
+}

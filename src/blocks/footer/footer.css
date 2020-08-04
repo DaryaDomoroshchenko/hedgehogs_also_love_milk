@@ -1,0 +1,28 @@
+@import url(./__container/footer__container.css);
+@import url(./__content/footer__content.css);
+@import url(./__wrap/footer__wrap.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__link/footer__link.css);
+@import url(./__icons-container/footer__icons-container.css);
+@import url(./__icon-link/footer__icon-link.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__contacts/footer__contacts.css);
+@import url(./__caption/footer__caption.css);
+@import url(./__number/footer__number.css);
+@import url(./__rights/footer__rights.css);
+@import url(./__price/footer__price.css);
+
+.footer {
+  background-color: #70908B;
+  padding: 49px 0 30px;
+  min-height: 184px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 35px 0 40px;
+  }
+}

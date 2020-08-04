@@ -1,0 +1,15 @@
+.header__contacts {
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__contacts {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__contacts {
+    display: none;
+  }
+}

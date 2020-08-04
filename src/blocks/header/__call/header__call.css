@@ -1,0 +1,46 @@
+.header__call {
+  width: 69px;
+  height: 69px;
+  background: linear-gradient(1.36deg, #B0D3CE 12.29%, #FFEDCE 83.89%);
+  box-shadow: -4px -4px 20px #FFFFFF, 4px 4px 20px #CFD7D3;
+  border-radius: 40px;
+  position: relative;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__call {
+    width: 35px;
+    height: 35px;
+    margin-right: 13px;
+  }
+}
+
+.header__call::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 26px;
+  background-image: url('../../../images/call.svg');
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: -13px;
+  margin-top: -13px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__call::after {
+    width: 13px;
+    height: 11px;
+    background-image: url('../../../images/call-mini.svg');
+    background-size: 11px 13px;
+    margin-left: -6.5px;
+    margin-top: -5.5px;
+  }
+}

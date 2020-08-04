@@ -1,0 +1,53 @@
+.card_type_hedgehog::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  width: 406.4px;
+  height: 94.02px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(56, 56, 56, 0.3) 0%, rgba(237, 237, 237, 0) 100%);
+  transform: rotate(-9.43deg);
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .card_type_hedgehog::before {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_type_hedgehog::before {
+    width: 180px;
+    right: -47px;
+    bottom: 70px;
+  }
+}
+
+.card_type_hedgehog::after {
+  content: "";
+  position: absolute;
+  bottom: 33px;
+  right: 4px;
+  width: 363px;
+  height: 265px;
+  background-image: url(../../../images/hedgehog_card.png);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .card_type_hedgehog::after {
+    width: 315px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_type_hedgehog::after {
+    width: 197px;
+    height: 144px;
+    bottom: 100px;
+    right: -46px;
+    background-image: url(../../../images/hedgehog_card_small.png);
+  }
+}
+

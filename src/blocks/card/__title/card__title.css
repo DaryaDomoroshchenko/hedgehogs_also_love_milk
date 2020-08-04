@@ -1,0 +1,17 @@
+.card__title {
+  font-family: 'CormorantInfant', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #195557;
+  margin: 0 0 17px;
+}
+
+@media screen and (max-width: 767px) {
+  .card__title {
+    font-size: 30px;
+    line-height: 99.6%;
+    margin: 0 0 10px;
+  }
+}

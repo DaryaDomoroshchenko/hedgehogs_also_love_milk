@@ -1,0 +1,10 @@
+.contacts__caption {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: underline;
+  text-transform: lowercase;
+  margin: 0 0 3px;
+}

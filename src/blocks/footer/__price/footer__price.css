@@ -1,0 +1,16 @@
+.footer__price {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 131.4%;
+  color: #FFF;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__price {
+    font-size: 11px;
+    margin: 0;
+  }
+}

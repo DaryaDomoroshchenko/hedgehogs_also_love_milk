@@ -1,0 +1,27 @@
+.card_type_feed::after {
+  content: "";
+  position: absolute;
+  bottom: 43px;
+  right: 62px;
+  width: 213px;
+  height: 301px;
+  background-image: url(../../../images/feed.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .card_type_feed::after {
+    width: 217px;
+    right: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_type_feed::after {
+    width: 114px;
+    height: 160px;
+    bottom: 90px;
+    right: -10px;
+    background-image: url(../../../images/feed_small.png);
+  }
+}

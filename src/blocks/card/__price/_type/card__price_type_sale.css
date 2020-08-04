@@ -1,0 +1,9 @@
+.card__price_type_sale {
+  font-family: 'CormorantInfant', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #195557;
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+.lead__caption {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #70908B;
+  margin: 0 0 34px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    font-size: 12px;
+    line-height: 146.4%;
+    margin: 0 0 21px;
+  }
+}

@@ -1,0 +1,41 @@
+@import url(./__vaccinated/info-label__vaccinated.css);
+@import url(./__likes/info-label__likes.css);
+@import url(./__like-btn/info-label__like-btn.css);
+
+.info-label {
+  width: 220px;
+  height: 79px;
+  background: #195557;
+  position: absolute;
+  top: 70px;
+  right: -65px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 29px 0 59px;
+  transition-duration: 1s;
+
+  opacity: 0;
+  visibility: hidden;
+  transition-property:  opacity, visibility;
+  transition-duration: 1s, 1s;
+  transition-delay: .3s, .3s;
+  cursor: pointer;
+}
+
+.info-label:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.info-label::before, .block::after {
+  content: '';
+  position: absolute;
+  left: calc(50% - 11px);
+  top: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #195557;
+  transform: rotate(180deg);
+}
+

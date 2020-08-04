@@ -1,0 +1,12 @@
+.about__circle_color_green {
+  background: #70908B;
+  background-image: url(../../../../images/care_circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .about__circle_color_green {
+    background-image: url(../../../../images/care_circle_small.svg);
+  }
+}

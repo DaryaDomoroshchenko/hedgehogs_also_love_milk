@@ -1,0 +1,30 @@
+@import url(./__list/submenu__list.css);
+@import url(./__link/submenu__link.css);
+@import url(./__li/submenu__li.css);
+
+.submenu {
+  width: 169px;
+  height: 173px;
+  left: -20px;
+  top: 35px;
+  background: #FFFEFE;
+  box-shadow: 4px 4px 20px #C2CCCA;
+  border-radius: 8px;
+  position: absolute;
+  padding: 19px 24px;
+  box-sizing: border-box;
+  transition-duration: 1s;
+
+  opacity: 0;
+  visibility: hidden;
+  transition-property:  opacity, visibility;
+  transition-duration: 1s, 1s;
+  transition-delay: .3s, .3s;
+}
+
+.submenu:hover {
+  opacity: 1;
+  visibility: visible;
+  /* display: block;
+  opacity: 1; */
+}

@@ -1,0 +1,24 @@
+.header__menu {
+  /*   display: flex; */
+    margin-right: 132px;
+    position: relative;
+  }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .header__menu {
+    margin-right: 52px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .header__menu {
+    /* flex-direction: column; */
+    margin-right: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+      display: none;
+  }
+}

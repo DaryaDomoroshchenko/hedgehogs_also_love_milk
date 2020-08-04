@@ -1,0 +1,17 @@
+.info-label__like-btn {
+  background-image: url(../../../images/likes.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 19px;
+  height: 17px;
+  cursor: pointer;
+  transition: transform .05s linear;
+  margin-right: -20px;
+}
+
+.info-label__like-btn:hover {
+  transform: scale(1.03);
+}

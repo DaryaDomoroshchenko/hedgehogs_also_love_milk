@@ -1,0 +1,20 @@
+.card__discount-container {
+  width: 68px;
+  height: 36px;
+  background: #70908B;
+  position: absolute;
+  left: 62px;
+  top: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .card__discount-container {
+    left: 30px;
+    top: -6px;
+    width: 48px;
+    height: 21px;
+  }
+}

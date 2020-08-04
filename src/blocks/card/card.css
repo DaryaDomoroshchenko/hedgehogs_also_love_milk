@@ -1,0 +1,40 @@
+@import url(./__title/card__title.css);
+@import url(./__description/card__description.css);
+@import url(./__price/card__price.css);
+@import url(./__rub/card__rub.css);
+@import url(./__info/_hide/card__info_hide.css);
+@import url(./__info/card__info.css);
+@import url(./__add/card__add.css);
+@import url(./__discount-container/card__discount-container.css);
+@import url(./__discount/card__discount.css);
+@import url(./__triangle/card__triangle.css);
+@import url(./_type/card_type_hedgehog.css);
+@import url(./_type/card_type_feed.css);
+@import url(./_color/card_color_pink.css);
+@import url(./_color/card_color_blue.css);
+
+.card {
+  width: 570px;
+  height: 397px;
+  border-radius: 20px;
+  padding: 54px 326px 58px 59px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow: inset 4px 4px 40px #F1F1F1;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .card {
+    width: 500px;
+    padding: 54px 260px 58px 59px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    height: 318px;
+    width: 278px;
+    padding: 44px 129px 32px 30px;
+  }
+}

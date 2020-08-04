@@ -1,0 +1,17 @@
+.card__description {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+  margin: 0 0 7px;
+}
+
+@media screen and (max-width: 767px) {
+  .card__description {
+    font-size: 11px;
+    line-height: 141.9%;
+    margin: 0 0 23px;
+  }
+}

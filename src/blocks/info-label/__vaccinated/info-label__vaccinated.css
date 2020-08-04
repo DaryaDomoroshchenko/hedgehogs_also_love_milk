@@ -1,0 +1,21 @@
+.info-label__vaccinated {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.info-label__vaccinated::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 9.5px);
+  left: -28px;
+  width: 20px;
+  height: 19px;
+  background-image: url(../../../images/vaccinated.svg);
+  background-repeat: no-repeat;
+}

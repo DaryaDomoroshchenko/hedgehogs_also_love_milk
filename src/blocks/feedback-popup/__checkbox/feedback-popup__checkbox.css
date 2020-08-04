@@ -1,0 +1,38 @@
+.feedback-popup__checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.feedback-popup__checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.feedback-popup__checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background: #F8F8F8;
+  border: 1px solid #70908B;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 9px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  cursor: pointer;
+}
+
+.feedback-popup__checkbox:checked+label::before {
+  background-image: url('../../../images/check-mark.svg');
+  background-size: 6px 8px;
+}
+
+.feedback-popup__checkbox:disabled+label::before {
+  background-color: #C4C4C4;
+}

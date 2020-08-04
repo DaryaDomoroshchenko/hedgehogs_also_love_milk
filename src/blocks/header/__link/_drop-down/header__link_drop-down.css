@@ -1,0 +1,35 @@
+.header__link_drop-down {
+  position: relative;
+  /* transition: transform .4s ease-out; */
+}
+
+.header__link_drop-down:hover + .submenu {
+/*   display: block;
+  transition-delay: 2s; */
+  opacity: 1;
+  visibility: visible;
+  /* display: block;
+  opacity: 1; */
+}
+
+.header__link_drop-down::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -9px;
+  width: 6.25px;
+  height: 8.33px;
+  background-image: url('../../../../images/right-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 30%;
+  margin-left: -3.14px;
+  margin-top: -4.15px;
+  cursor: pointer;
+  transition: all .8s;
+}
+
+.header__link_drop-down:hover::before {
+  transform: rotate(90deg);
+  top: calc(50% + 1px);
+  /* left: -18px; */
+}

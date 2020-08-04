@@ -1,0 +1,16 @@
+.card__discount {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #FFF;
+}
+
+@media screen and (max-width: 767px) {
+  .card__discount {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

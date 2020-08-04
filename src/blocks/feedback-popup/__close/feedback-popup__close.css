@@ -1,0 +1,21 @@
+.feedback-popup__close {
+  position: absolute;
+  top: 17.25px;
+  right: 22.25px;
+  cursor: pointer;
+}
+
+/* @media screen and (min-width: 375px) and (max-width: 767px) { */
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+  .feedback-popup__close {
+    top: 12px;
+    right: 17px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .feedback-popup__close {
+    top: 8px;
+    right: 8px;
+  }
+}

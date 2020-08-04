@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'CormorantInfant';
+  font-style:  normal;
+  font-weight: 400;
+  src:
+    url('./fonts/CormorantInfant/CormorantInfant-Regular.woff') format('woff'),
+    url('./fonts/CormorantInfant/CormorantInfant-Regular.woff2') format('woff2'),
+    url('./fonts/CormorantInfant/CormorantInfant-Regular.eot') format('eot'),
+    url('./fonts/CormorantInfant/CormorantInfant-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'CormorantInfant';
+  font-style:  normal;
+  font-weight: 500;
+  src:
+    url('./fonts/CormorantInfant/CormorantInfant-Medium.woff') format('woff'),
+    url('./fonts/CormorantInfant/CormorantInfant-Medium.woff') format('woff2'),
+    url('./fonts/CormorantInfant/CormorantInfant-Medium.eot') format('eot'),
+    url('./fonts/CormorantInfant/CormorantInfant-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'CormorantInfant';
+  font-style:  normal;
+  font-weight: 600;
+  src:
+    url('./fonts/CormorantInfant/CormorantInfant-Bold.woff') format('woff'),
+    url('./fonts/CormorantInfant/CormorantInfant-Bold.woff2') format('woff2'),
+    url('./fonts/CormorantInfant/CormorantInfant-Bold.eot') format('eot'),
+    url('./fonts/CormorantInfant/CormorantInfant-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
+  font-weight: 400;
+  src:
+    url('./fonts/Raleway/Raleway-Regular.woff') format('woff'),
+    url('./fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+    url('./fonts/Raleway/Raleway-Regular.eot') format('eot'),
+    url('./fonts/Raleway/Raleway-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
+  font-weight: 500;
+  src:
+    url('./fonts/Raleway/Raleway-Medium.woff') format('woff'),
+    url('./fonts/Raleway/Raleway-Medium.woff') format('woff2'),
+    url('./fonts/Raleway/Raleway-Medium.eot') format('eot'),
+    url('./fonts/Raleway/Raleway-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
+  font-weight: 600;
+  src:
+    url('./fonts/Raleway/Raleway-Bold.woff') format('woff'),
+    url('./fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+    url('./fonts/Raleway/Raleway-Bold.eot') format('eot'),
+    url('./fonts/Raleway/Raleway-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'rouble';
+  src: url('./fonts/rouble.otf') format('opentype');
+}

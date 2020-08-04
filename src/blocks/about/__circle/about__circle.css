@@ -1,0 +1,19 @@
+@import url(./_color/about__circle_color_pink.css);
+@import url(./_color/about__circle_color_blue.css);
+@import url(./_color/about__circle_color_green.css);
+
+.about__circle {
+  width: 152px;
+  height: 152px;
+  box-shadow: 4px 4px 20px #C2CCCA, -8px -8px 20px #FFFFFF;
+  border-radius: 50%;
+  margin: 0 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .about__circle {
+    width: 92.24px;
+    height: 92.24px;
+    margin: 0 0 18px;
+  }
+}

@@ -1,0 +1,10 @@
+.contacts__number {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 0;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+}

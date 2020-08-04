@@ -1,0 +1,9 @@
+.footer__wrap {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__wrap {
+    flex-direction: column;
+  }
+}

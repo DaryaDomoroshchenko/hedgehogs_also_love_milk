@@ -1,0 +1,28 @@
+.feedback-popup__content {
+  width: 579px;
+/*   min-height: 596px; */
+  background-color: #FFF;
+  box-shadow: 4px 4px 20px #C2CCCA;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 51px 72px 55px 66px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+/* @media screen and (min-width: 375px) and (max-width: 767px) { */
+  .feedback-popup__content {
+    padding: 36px 47px 40px 41px;
+    width: calc(100vw - 100px);
+    max-width: 579px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .feedback-popup__content {
+    padding: 21px 32px 25px 26px;
+    width: calc(100vw - 15px);
+  }
+}

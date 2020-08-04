@@ -1,0 +1,26 @@
+@import url(./__logo/header__logo.css);
+@import url(./__wrap/header__wrap.css);
+@import url(./__menu/header__menu.css);
+@import url(./__burger-menu/header__burger-menu.css);
+@import url(./__link/header__link.css);
+@import url(./__call/header__call.css);
+@import url(./__basket/header__basket.css);
+@import url(./__basket-img/header__basket-img.css);
+@import url(./__contacts/header__contacts.css);
+@import url(./__caption/header__caption.css);
+@import url(./__number/header__number.css);
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}

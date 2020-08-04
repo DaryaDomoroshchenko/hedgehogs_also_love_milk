@@ -1,0 +1,12 @@
+.about__circle_color_pink {
+  background: #FFEDCD;
+  background-image: url(../../../../images/hedgehog_circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+  .about__circle_color_pink {
+    background-image: url(../../../../images/hedgehog_circle_small.svg);
+  }
+}

@@ -1,0 +1,32 @@
+.footer__icons-container {
+  display: flex;
+  margin-right: 65px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer__icons-container {
+    order: 3;
+    flex-direction: column;
+    margin: 0 0 0 52px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footer__icons-container {
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 46px;
+    right: 44px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer__icons-container {
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 46px;
+    right: 24px;
+  }
+}

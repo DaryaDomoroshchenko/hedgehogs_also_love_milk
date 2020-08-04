@@ -1,0 +1,29 @@
+@import url(./_upper/about__item_upper.css);
+
+.about__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 182px;
+  margin-right: 190px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about__item {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about__item {
+    align-items: flex-start;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 125px;
+  }
+}
+
+.about__item:last-of-type {
+  margin-right: 0;
+  margin-bottom: 0;
+}

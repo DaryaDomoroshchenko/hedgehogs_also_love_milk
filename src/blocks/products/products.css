@@ -1,0 +1,83 @@
+.products {
+  background-color: #FFF;
+  padding: 98px 0 141px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .products {
+    padding: 40px 0 56px;
+  }
+}
+
+/* Кольца */
+.products .circle .circle_position_left::before {
+  content: "";
+  position: absolute;
+  bottom: -269px;
+  left: -171px;
+  width: 655px;
+  height: 655px;
+  background: #EAEEEF;
+  opacity: .3;
+  border-radius: 50%;
+}
+
+.products .circle .circle_position_left::after {
+  content: "";
+  position: absolute;
+  bottom: -157px;
+  left: -59px;
+  width: 431px;
+  height: 431px;
+  background: #FFF;
+  border-radius: 50%;
+}
+
+.products .circle .circle_position_right::before {
+  content: "";
+  position: absolute;
+  bottom: -184px;
+  right: -203px;
+  width: 369px;
+  height: 369px;
+  background: #EAEEEF;
+  opacity: .3;
+  border-radius: 50%;
+}
+
+.products .circle .circle_position_right::after {
+  content: "";
+  position: absolute;
+  bottom: -120.9px;
+  right: -139.9px;
+  width: 242.81px;
+  height: 242.81px;
+  background: #FFF;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .products .circle .circle_position_left::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .products .circle .circle_position_left::after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .products .circle .circle_position_right::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .products .circle .circle_position_right::after {
+    display: none;
+  }
+}

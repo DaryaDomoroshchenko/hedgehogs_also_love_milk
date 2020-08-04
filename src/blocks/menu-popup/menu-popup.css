@@ -1,0 +1,31 @@
+@import url(./__close/menu-popup__close.css);
+@import url(./__logo/menu-popup__logo.css);
+@import url(./__images-wrap/menu-popup__images-wrap.css);
+@import url(./__contacts/menu-popup__contacts.css);
+@import url(./__list/menu-popup__list.css);
+@import url(./__li/menu-popup__li.css);
+@import url(./__link/menu-popup__link.css);
+
+
+.menu-popup {
+  width: 301px;
+  height: 480px;
+  padding: 17px 23px 43px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px #E3E3E3;
+  border-radius: 0px 10px 10px 0px;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  display: none;
+  z-index: 10;
+}
+
+
+@media screen and (max-width: 767px) {
+  .menu-popup {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.feedback-popup__conditions {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #195557;
+  margin: 0;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 767px) { */
+@media screen and (max-width: 1024px) {
+  .feedback-popup__conditions {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,25 @@
+.footer__menu {
+  height: 100%;
+  margin-right: 104px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .footer__menu {
+    margin-right: 52px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer__menu {
+    /* flex-direction: column; */
+    margin-right: 52px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    /* flex-direction: column; */
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}

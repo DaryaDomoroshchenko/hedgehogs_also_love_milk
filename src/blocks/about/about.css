@@ -1,0 +1,60 @@
+@import url(./__item/about__item.css);
+@import url(./__circle/about__circle.css);
+@import url(./__title/about__title.css);
+@import url(./__caption/about__caption.css);
+
+.about {
+  display: flex;
+  justify-content: center;
+  min-height: 298px;
+  align-items: flex-end;
+  margin-top: -263px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  max-height: 430px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -60px;
+    justify-content: flex-start;
+  }
+}
+
+.about::before {
+  content: '';
+  display: block;
+  width: calc(100% + 200px);
+  min-width: 950px;
+  height: 515px;
+  border-radius: 100% 100%;
+  border-top: 5px solid #bbb8b861;
+  border-bottom: none;
+  background: #fff;
+  position: absolute;
+  top: 85px;
+  left: -100px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  .about::before {
+    display: none;
+  }
+}
+
+/* .about .hedgehogs .hedgehogs_left::after {
+  content: "";
+  position: absolute;
+  bottom: 33px;
+  left: 0;
+  width: 549.22px;
+  height: 412.01px;
+  background-image: url(../../images/hedgehog_left.png);
+  background-repeat: no-repeat;
+  transform: rotate(340deg);
+} */

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ёжики тоже любят молоко</title>
+  <link rel="shortcut icon" href="<%=require('./images/favicon.png').default%>">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+
+<body class="root">
+
+  <section class="intro">
+
+    <header class="header root__container root__paddings">
+      <a class="header__burger-menu" href="#"></a>
+      <a class="header__logo-link hover-opacity"href="#">
+        <img class="header__logo" src="<%=require('./images/logo_dark.svg').default%>" alt="Логотип">
+      </a>
+
+      <div class="header__wrap">
+
+        <nav class="navigation header__menu">
+
+          <a class="header__link header__link_drop-down navigation__link" href="#">Каталог</a>
+          <div class="submenu">
+            <ul class="submenu__list">
+              <li class="submenu__li">
+                <a class="submenu__link navigation__link" href="#">Ёжики</a>
+              </li>
+              <li class="submenu__li">
+                <a class="submenu__link navigation__link" href="#">Питание</a>
+              </li>
+              <li class="submenu__li">
+                <a class="submenu__link navigation__link" href="#">Переноски</a>
+              </li>
+              <li class="submenu__li">
+                <a class="submenu__link navigation__link" href="#">Лекарства</a>
+              </li>
+            </ul>
+          </div>
+
+          <a class="header__link navigation__link" href="#">О нас</a>
+          <a class="header__link navigation__link" href="#">Контакты</a>
+          <a class="header__link navigation__link" href="#">Галерея</a>
+
+        </nav>
+
+        <button class="header__call hover-opacity"></button>
+
+        <div class="header__contacts contacts">
+          <a class="header__caption contacts__caption hover-opacity">Позвоните мне</a>
+          <p class="header__number contacts__number">+7 (965) 569-89-98</p>
+        </div>
+
+        <a class="header__basket hover-opacity" href="#">
+          <img class="header__basket-img hover-opacity" src="<%=require('./images/basket.svg').default%>" alt="Корзина">
+        </a>
+
+      </div>
+
+    </header>
+
+    <section class="lead root__container root__paddings">
+
+      <img class="lead__title" src="<%=require('./images/title_hedgehogs.svg').default%>" alt="Ёжики">
+      <h2 class="lead__subtitle">Тоже любят молоко</h2>
+      <p class="lead__caption">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель.</p>
+      <button class="lead__button button">Купить ёжика</button>
+
+    </section>
+
+  </section>
+
+  <section class="about root__paddings">
+
+    <div class="hedgehogs">
+      <div class="hedgehogs hedgehogs_left"></div>
+      <div class="hedgehogs hedgehogs_right"></div>
+    </div>
+
+    <div class="about__item">
+      <div class="about__circle about__circle_color_pink"></div>
+      <h5 class="about__title">Разведение ежиков</h5>
+      <p class="about__caption">Собственная ферма, уход и содержание</p>
+    </div>
+
+    <div class="about__item about__item_upper">
+      <div class="about__circle about__circle_color_blue"></div>
+      <h5 class="about__title">Здоровье</h5>
+      <p class="about__caption">Всегда прививаем и вовремя обследуем ваших будущих питомцев</p>
+    </div>
+
+    <div class="about__item">
+      <div class="about__circle about__circle_color_green"></div>
+      <h5 class="about__title">Любовь и забота</h5>
+      <p class="about__caption">Каждому ежику мы дарим много внимания</p>
+    </div>
+
+  </section>
+
+  <section class="products root__container root__paddings">
+
+    <div class="circle">
+      <div class="circle circle_position_left"></div>
+      <div class="circle circle_position_right"></div>
+    </div>
+
+    <div class="cardlist">
+
+      <div class="card card_type_hedgehog card_color_pink">
+
+        <div class="card__discount-container">
+          <span class="card__discount">-50 %</span>
+        </div>
+
+        <h4 class="card__title">Ежик “Евгений”</h4>
+        <p class="card__description">Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение</p>
+        <p class="card__price card__price_type_initial">3&nbsp;000 <span class="card__rub">k</span></p>
+        <p class="card__price card__price_type_sale">1&nbsp;500 <span class="card__rub">k</span></p>
+
+        <button class="card__info hover-opacity"></button>
+        <div class="info-label">
+          <p class="info-label__vaccinated">Привит</p>
+          <button class="info-label__like-btn"></button>
+          <p class="info-label__likes">1235</p>
+        </div>
+
+        <button class="card__add hover-opacity"></button>
+
+        <div class="card__triangle"></div>
+
+      </div>
+
+      <div class="card card_type_hedgehog card_color_blue">
+
+        <div class="card__discount-container">
+          <span class="card__discount">-50 %</span>
+        </div>
+
+        <h4 class="card__title">Ежик “Максим”</h4>
+        <p class="card__description">Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение</p>
+        <p class="card__price card__price_type_initial">3&nbsp;000 <span class="card__rub">k</span></p>
+        <p class="card__price card__price_type_sale">1&nbsp;500 <span class="card__rub">k</span></p>
+
+        <button class="card__info hover-opacity"></button>
+        <div class="info-label">
+          <p class="info-label__vaccinated">Привит</p>
+          <button class="info-label__like-btn"></button>
+          <p class="info-label__likes">1235</p>
+        </div>
+
+        <button class="card__add hover-opacity"></button>
+
+        <div class="card__triangle"></div>
+
+      </div>
+
+      <div class="card card_type_feed card_color_blue">
+
+        <div class="card__discount-container">
+          <span class="card__discount">-50 %</span>
+        </div>
+
+        <h4 class="card__title">Корм для ёжиков</h4>
+        <p class="card__description">Скомбинированое питание, которое содержит нужное количество витаминов и кальция</p>
+        <p class="card__price card__price_type_initial card__price_hide">500 <span class="card__rub">k</span></p>
+        <p class="card__price card__price_type_sale">500 <span class="card__rub">k</span></p>
+
+        <a class="card__info card__info_hide hover-opacity" href="#">
+          <img class="card__info-img" src="<%=require('./images/info.svg').default%>" alt="Информация">
+        </a>
+
+        <button class="card__add hover-opacity"></button>
+
+        <div class="card__triangle"></div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="menu-popup root__hide">
+
+    <div class="menu-popup__images-wrap">
+      <img class="menu-popup__close" src="<%=require('./images/close-menu.svg').default%>" alt="Закрыть">
+      <img class="menu-popup__logo" src="<%=require('./images/logo_dark.svg').default%>" alt="Логотип">
+    </div>
+
+    <ul class="menu-popup__list">
+      <li class="menu-popup__li">
+        <a class="menu-popup__link navigation__link" href="#">Каталог</a>
+      </li>
+      <li class="menu-popup__li">
+        <a class="menu-popup__link navigation__link" href="#">О нас</a>
+      </li>
+      <li class="menu-popup__li">
+        <a class="menu-popup__link navigation__link" href="#">Контакты</a>
+      </li>
+      <li class="menu-popup__li">
+        <a class="menu-popup__link navigation__link" href="#">Галерея</a>
+      </li>
+    </ul>
+
+    <div class="menu-popup__contacts contacts">
+      <a class="menu-popup__caption contacts__caption hover-opacity">Позвоните мне</a>
+      <p class="menu-popup__number contacts__number">+7 (965) 569-89-98</p>
+    </div>
+
+  </div>
+
+  <div class="feedback-popup root__hide">
+    <div class="feedback-popup__content">
+      <img class="feedback-popup__close" src="<%=require('./images/close.svg').default%>" alt="Закрыть">
+      <h3 class="feedback-popup__title">Получить бесплатную консультацию</h3>
+
+      <form class="feedback-popup__form">
+
+          <select class="feedback-popup__select-location">
+            <option class="feedback-popup__option" value="moscow">Москва</option>
+            <option class="feedback-popup__option" value="st-petersburg" selected>Санкт-Петербург</option>
+          </select>
+
+          <div class="feedback-popup__input-wrap">
+            <input class="feedback-popup__input" id="inputName" type="text" placeholder="Ваше имя" name="name" required>
+            <input class="feedback-popup__input" id="inputTel" type="tel" placeholder="Телефон" name="telephone" required>
+          </div>
+
+          <div class="feedback-popup__checkbox-wrap">
+            <input class="feedback-popup__checkbox" id="buyCheckbox" type="checkbox" name="buyCheckbox">
+            <label class="feedback-popup__label" for="buyCheckbox">Хочу приобрести ёжика</label>
+          </div>
+
+          <div class="feedback-popup__checkbox-wrap">
+            <input class="feedback-popup__checkbox" id="careCheckbox" type="checkbox" name="careCheckbox">
+            <label class="feedback-popup__label" for="careCheckbox">Хочу узнать подробности об уходе</label>
+          </div>
+
+          <div class="feedback-popup__checkbox-wrap">
+            <input class="feedback-popup__checkbox" id="detailsCheckbox" type="checkbox" name="detailsCheckbox">
+            <label class="feedback-popup__label" for="detailsCheckbox">Хочу узнать подробности о покупке</label>
+          </div>
+
+          <button class="feedback-popup__button button" type="submit">Отправить</button>
+
+        </form>
+
+      <p class="feedback-popup__conditions">Нажимая кнопку <span class="feedback-popup__uppercase">отправить</span> вы соглашаетесь с <a class="feedback-popup__link" href="#">условиями обработки данных</a></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+
+    <div class="footer__container root__paddings root__container">
+
+      <div class="footer__content">
+        <a class="footer__logo-link hover-opacity"href="#">
+          <img class="footer__logo" src="<%=require('./images/logo_light.svg').default%>" alt="Логотип">
+        </a>
+
+        <div class="footer__wrap">
+
+          <nav class="navigation footer__menu">
+            <a class="footer__link navigation__link" href="#">Каталог</a>
+            <a class="footer__link navigation__link" href="#">О нас</a>
+            <a class="footer__link navigation__link" href="#">Контакты</a>
+            <a class="footer__link navigation__link" href="#">Галерея</a>
+          </nav>
+
+          <div class="footer__icons-container">
+            <a class="footer__icon-link hover-opacity" href="#">
+              <img class="footer__social-icon" src="<%=require('./images/instagram-icon.svg').default%>" alt="Инстаграм">
+            </a>
+            <a class="footer__icon-link hover-opacity" href="#">
+              <img class="footer__social-icon" src="<%=require('./images/facebook-icon.svg').default%>" alt="Фейсбук">
+            </a>
+            <a class="footer__icon-link hover-opacity" href="#">
+              <img class="footer__social-icon" src="<%=require('./images/twitter-icon.svg').default%>" alt="Твиттер">
+            </a>
+          </div>
+
+          <div class="footer__contacts contacts">
+            <a class="footer__caption contacts__caption hover-opacity">Позвоните мне</a>
+            <p class="footer__number contacts__number">+7 (965) 569-89-98</p>
+          </div>
+
+        </div>
+      </div>
+
+      <p class="footer__rights">Все права защищены.</p>
+      <p class="footer__price">Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</p>
+
+    </div>
+
+  </footer>
+
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+
+</body>
+</html>
